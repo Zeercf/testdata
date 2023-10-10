@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddSubject_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD SUBJECT"
+        android:textColor="@color/lavenda"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Subject_title"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textColor="@color/lavenda"
+        android:id="@+id/edit_subject_title"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Subject_credit"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textColor="@color/lavenda"
+        android:id="@+id/edit_subject_credit"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Subject_time"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textColor="@color/lavenda"
+        android:id="@+id/edit_subject_time"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Subject_place"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textColor="@color/lavenda"
+        android:id="@+id/edit_subject_place"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ADD"
+        android:layout_gravity="center"
+        android:id="@+id/btn_add_subject"/>
+
+</LinearLayout>
